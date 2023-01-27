@@ -30,7 +30,7 @@
         
         <div class="form-group">
             <label for="dropdown">Which option best describes your current role? 
-                <select id="dropdown">
+                <select id="dropdown" class="drop" >
                     <option value="">Select current role</option>
                     <option value="1">Student</option>
                     <option value="2">Full Time Job</option>
@@ -50,8 +50,8 @@
         </div>
 
         <div class="form-group">
-            <label for="favorite">What is your favorite feature of freeCodeCamp?
-                <select id="favorite">
+            <label for="favorite" class="fav" >What is your favorite feature of freeCodeCamp?
+                <select id="favorite" class="drop" >
                     <option value="">Select an option</option>
                     <option value="1">Challenges</option>
                     <option value="2">Projects</option>
@@ -62,38 +62,38 @@
         </div>
 
         <div class="form-group">
-            <label for="">What would you like to see improved? (Check all that apply)
-                <label for="front-end"><input type="checkbox" name="Front"  value="front-end-projects" >Front-end Projects</label>
+            <label for="" class="improve">What would you like to see improved? (Check all that apply)
+                <label for="front-end"><input type="checkbox" name="Front"  value="front-end-projects" class="improve1" >Front-end Projects</label>
                 
-                <label for="back-end"><input type="checkbox" name="Back"  value="back-end-projects" >Back-end Projects</label>
+                <label for="back-end"><input type="checkbox" name="Back"  value="back-end-projects" class="improve1" >Back-end Projects</label>
                 
-                <label for="data"><input type="checkbox" name="Data"  value="data-visualization" >Data Visualization</label>
+                <label for="data"><input type="checkbox" name="Data"  value="data-visualization" class="improve1" >Data Visualization</label>
                 
-                <label for="challenges"><input type="checkbox" name="Challenges"  value="challenges" >Challenges</label>
+                <label for="challenges"><input type="checkbox" name="Challenges"  value="challenges" class="improve1" >Challenges</label>
                 
-                <label for="open-source"><input type="checkbox" name="Open"  value="open-source-community" >Open Source Community</label>
+                <label for="open-source"><input type="checkbox" name="Open"  value="open-source-community" class="improve1" >Open Source Community</label>
                 
-                <label for="gitter"><input type="checkbox" name="Gitter"  value="gitter-help-rooms" >Gitter help rooms</label>
+                <label for="gitter"><input type="checkbox" name="Gitter"  value="gitter-help-rooms" class="improve1" >Gitter help rooms</label>
                 
-                <label for="videos"><input type="checkbox" name="Videos"  value="videos" >Videos</label>
+                <label for="videos"><input type="checkbox" name="Videos"  value="videos" class="improve1" >Videos</label>
                 
-                <label for="city-meetups"><input type="checkbox" name="City"  value="city-meetups" >City Meetups</label>
+                <label for="city-meetups"><input type="checkbox" name="City"  value="city-meetups" class="improve1" >City Meetups</label>
                 
-                <label for="wiki"><input type="checkbox" name="Wiki"  value="wiki" >Wiki</label>
+                <label for="wiki"><input type="checkbox" name="Wiki"  value="wiki" class="improve1" >Wiki</label>
                 
-                <label for="forum"><input type="checkbox" name="Forum"  value="forum" >Forum</label>
+                <label for="forum"><input type="checkbox" name="Forum"  value="forum" class="improve1" >Forum</label>
                 
-                <label for="additional"><input type="checkbox" name="Additional"  value="additional-courses" >Additional Courses</label>
+                <label for="additional"><input type="checkbox" name="Additional"  value="additional-courses" class="improve1" >Additional Courses</label>
             </label>
         </div>
 
-        <div class="form-group">
-            <label for="comments">Any comments or suggestions?
-                <textarea name="Comment" id="comments" cols="30" rows="5" placeholder="Enter your comment here..." ></textarea>
+        <div class="form-group com">
+            <label for="comments" >Any comments or suggestions?
+                <textarea name="Comment" id="comments" cols="30" rows="5" placeholder="Enter your comment here..." class="drop com1" ></textarea>
             </label>
         </div>
         
-        <button type="submit" value="Submit" id="submit">Submit</button>
+        <button type="submit" value="Submit" id="submit" >Submit</button>
 
     </form>
 </body>
